@@ -8,18 +8,19 @@ export default {
 </script>
 
 <template>
-  <button type="submit">{{ text }}</button>
+  <o-button variant="primary" class="btn">Submit</o-button>
 </template>
 
 <style scoped>
-button {
-  width: 100%;
-  background-color: #4caf50;
-  color: white;
-  padding: 16px 0px;
-  margin: 10px 0px;
-  border: none;
+.btn {
+  background-color: #ff6f61;
+  border-style: none;
+  padding: 16px;
   border-radius: 4px;
   cursor: pointer;
+}
+.btn:hover {
+  background-color: #dd4124;
+  transition: 0.3s;
 }
 </style>
